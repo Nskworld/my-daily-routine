@@ -8,13 +8,8 @@ int main(void){
     fgets(buf, sizeof(buf), stdin);
     sscanf(buf, "%s", *target);
 
-    /* Set values as below:
-     *
-     * 1.　Change <WORD> to input for opening URL.
-     * 2.　Change <URL> for pages which you want to show.
-     * */
-    if(strcmp(*target, "<WORD>") == 0){
-        system("open <URL>");
+    if(strcmp(*target, "js") == 0){
+        system("open https://www.codewars.com/dashboard");
         return 0;
     }
 }
