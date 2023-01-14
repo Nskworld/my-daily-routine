@@ -21,8 +21,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Test B
 
 **Test Configuration**:
-* Firmware version:
-* Hardware:
+* Firmware version: OS X(version 12.6)
+* Hardware: Mac Air(M1, 2020)
 * Toolchain:
 * SDK:
 
